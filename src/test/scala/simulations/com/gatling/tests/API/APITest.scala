@@ -21,7 +21,7 @@ class APITest extends Simulation{
   // SetUp
   setUp(
 //    scn.inject(atOnceUsers(10)).protocols(httpProtocol)
-    scn.inject(rampUsers(10).during(10)).protocols(httpProtocol)
+    scn.inject(rampUsers(2).during(10)).protocols(httpProtocol)
   )
 
 
